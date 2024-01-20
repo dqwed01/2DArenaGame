@@ -32,7 +32,8 @@ class Game:
                 sys.exit()
         
         for player in self.players:
-            player.WalkAnimation()
+            # player.WalkAnimation(4, speed=1)
+            player.Animate()
         self.display(self.players) 
         pygame.display.update()
         
